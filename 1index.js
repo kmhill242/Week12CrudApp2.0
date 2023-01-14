@@ -77,17 +77,6 @@ class DOMManager {
       $("#appointments").prepend(`
           <div class="col-sm-6 col-lg-4" style="margin-top: 15px;">
             <div class="card">
-              <img
-                src="${appointment.avatar}"
-                class="card-img-top"
-                alt="appointment avatar"
-                style="
-                  width: 200px;
-                  height: 200px;
-                  border: 1 px solid black;
-                  text-align: center;
-                "
-              />
               <div class="card-body">
                 <h5 class="card-date">${appointment.name}</h5>
                 <p class="card-text">${appointment.date}</p>
